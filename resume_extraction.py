@@ -10,7 +10,7 @@ spacy_model_name = 'en_core_web_sm'  # Use the model name
 spacy.load(spacy_model_name)
 
 # Provide the path to the resume file you want to parse
-resume_path = 'docxfiles/chNagarjunareddy[4_0].docx'  # Update with your file path
+resume_path = 'docxfiles/chNagarjunareddy[4_0].docx'
 
 # Parse the resume and get the extracted data
 data = ResumeParser(resume_path).get_extracted_data()
